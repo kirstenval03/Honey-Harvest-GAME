@@ -5,6 +5,10 @@ body {
 
 #game-intro {
   padding: 20px 0px;
+  font-family: cursive;
+  background-image: url(../images/startScreen.png);
+  background-size: cover;
+  height: 700px;
 }
 
 #game-container {
@@ -41,7 +45,7 @@ body {
 
 .game-intro p {
   font-size: 18px;
-  font-family: "Verdana";
+  font-family: cursive;";
 }
 
 .logo-img {
@@ -54,7 +58,7 @@ body {
 
 body button {
   font-size: 30px;
-  background-color: #f35b09;
+  background-color: #35a7bb;
   color: #fff;
   padding: 20px 40px;
   border: 0;
