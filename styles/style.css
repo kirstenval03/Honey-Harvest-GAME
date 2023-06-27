@@ -24,10 +24,11 @@ body {
   padding: 20px 0px;
   overflow: hidden;
   position: relative;
-  background-image: url(../images/FONDO\ 3.png);
+  background-image: url(../images/gameScreen.png);
   background-size: cover;
   animation: slide 5s linear infinite;
 }
+
 
 @keyframes slide {
   0% {
@@ -41,6 +42,9 @@ body {
 
 #game-end {
   display: none;
+  background-image: url(../images/endScreen.png);
+  background-size: cover;
+  height: 700px;
 }
 
 .game-intro p {
