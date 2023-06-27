@@ -16,7 +16,7 @@ class Game {
     );
 
     this.height = 600;
-    this.width = 900;
+    this.width = 1200;
     this.obstacles = [new Obstacle(this.gameScreen)];
     this.flowers = [new Flower(this.gameScreen)];
     this.score = 0;

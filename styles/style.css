@@ -13,10 +13,14 @@ body {
 }
 
 #game-container {
-  display: flex;
+  display: none;
   width: 100vw;
   padding: 20px 0px;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(196, 245, 255, 0.875) ;
+  font-family: cursive;
+  color: #35a7bb;
 }
 
 #game-screen {
