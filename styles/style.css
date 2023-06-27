@@ -47,6 +47,8 @@ body {
 
 #game-end {
   display: none;
+  color: #35a7bb;
+  font-family: cursive;
   background-image: url(../images/endScreen.png);
   background-size: cover;
   height: 700px;
@@ -66,7 +68,8 @@ body {
 }
 
 body button {
-  font-size: 30px;
+  font-size: 40px;
+  font-family: cursive;
   background-color: #35a7bb;
   color: #fff;
   padding: 20px 40px;
