@@ -12,7 +12,7 @@ class Game {
       500,
       100,
       150,
-      "../images/bee.png"
+      "./images/bee.png"
     );
 
     this.height = 600;

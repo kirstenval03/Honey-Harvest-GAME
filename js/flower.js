@@ -1,7 +1,7 @@
 class Flower {
     constructor(gameScreen) {
       this.gameScreen = gameScreen;
-      this.left = Math.floor(Math.random() * 300 + 70);
+      this.left = Math.floor(Math.random() * 500 + 70);
       this.top = -150;
       this.width = 100;
       this.height = 150;

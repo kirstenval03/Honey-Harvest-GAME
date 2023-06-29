@@ -9,7 +9,7 @@ class Player {
     this.directionY = 0;
     this.element = document.createElement("img");
 
-    this.element.src = imgSrc;
+    this.element.src = "./images/bee.png";
     this.element.style.position = "absolute";
     // Set up the default element's property values
     this.element.style.width = `${width}px`;
