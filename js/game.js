@@ -16,7 +16,7 @@ class Game {
     );
 
     this.height = 600;
-    this.width = 900;
+    this.width = 1000;
     this.obstacles = [new Obstacle(this.gameScreen)];
     this.flowers = [new Flower(this.gameScreen)];
     this.score = 0;
@@ -118,8 +118,11 @@ for (let i = 0; i < this.flowers.length; i++) {
 
     // Hide game screen
     this.gameScreen.style.display = "none";
+    
     // Show end game screen
     this.gameEndScreen.style.display = "block";
+    
+    
   }
 
   // ...
