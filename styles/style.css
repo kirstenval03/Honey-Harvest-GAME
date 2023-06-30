@@ -12,6 +12,10 @@ body {
   height: 700px;
 }
 
+#game-intro > p {
+color: #1b7989;
+}
+
 #game-container {
   display: none;
   width: 100vw;
@@ -52,11 +56,6 @@ body {
   background-image: url(../images/endScreen.png);
   background-size: cover;
   height: 700px;
-}
-
-.game-intro p {
-  font-size: 18px;
-  font-family: cursive;";
 }
 
 .logo-img {
